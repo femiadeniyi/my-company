@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-gray-800 text-white shadow-lg py-4">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
-        <div className="text-2xl font-semibold">
+        <div className="text-2xl md:text-sm font-semibold">
           <Link to="/">mickey's jewelry studio</Link>
         </div>
         <div className="space-x-6">
